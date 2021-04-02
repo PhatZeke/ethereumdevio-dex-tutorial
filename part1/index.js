@@ -12,7 +12,7 @@ const toTokenDecimals = 18;
 
 const amountToExchange = 1
 
-const web3 = new Web3('http://127.0.0.1:8545');
+const web3 = new Web3('https://mainnet.infura.io/v3/b173657a332241d192ae1d1588efde68');
 
 const onesplitContract = new web3.eth.Contract(oneSplitABI, onesplitAddress);
 

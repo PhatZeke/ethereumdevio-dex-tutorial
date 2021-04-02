@@ -17,7 +17,7 @@ const toTokenDecimals = 18;
 
 const amountToExchange = new BigNumber(1000);
 
-const web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8545', { timeout: 20000000 }));
+const web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/b173657a332241d192ae1d1588efde68', { timeout: 20000000 }));
 
 const onesplitContract = new web3.eth.Contract(oneSplitABI, onesplitAddress);
 const daiToken = new web3.eth.Contract(erc20ABI, fromToken);
