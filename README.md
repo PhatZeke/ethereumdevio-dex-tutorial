@@ -14,6 +14,7 @@ To compile: From the head of the repo, cd to part1, type "npm install".  When th
 [04/08/2021]  I've added trader.js in place of index.js.  The new file is better annotated and also uses environment variables to specify wallet address and private key:
 
 export MY_ACCT_ADDR=0x....
+
 export MY_PRIV_KEY=0x....
 
 node trader.js
